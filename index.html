@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,9 +24,9 @@
 
 
                     <img class="avatar" src="assets/Avatar.png" alt="Foto da pessoa desenvolvedora." />
-                    <p class="subtitle">
+                    <h2 class="subtitle">
                         Hello World! Meu nome é <span> Martina Santos</span> e sou
-                    </p>
+                    </h2>
                     <h1>Desenvolvedora Fullstack</h1>
                     <p class="text">
                         Transformo necessidades em aplicações reais, evolventes e
@@ -55,10 +55,9 @@
                             <img src="assets/icon/Nodejs.svg" alt="Ícone da linguagem node.js" />
                         </a>
                     </nav>
-
-
-                    <img src="assets/icon/CaretDoubleDown.svg" alt="Ícone de duas setas para baixo." />
-
+                    <a href="#projects">
+                        <img src="assets/icon/CaretDoubleDown.svg" alt="Ícone de duas setas para baixo." />
+                    </a>
 
                 </figcaption>
             </figure>
@@ -68,13 +67,13 @@
 
         <section id="projects">
 
-            <h3>Meu trabalho</h3>
+            <h2>Meu trabalho</h2>
             <h1 class="destaque">Veja os projetos em destaque</h1>
             <div class="grid-container">
                 <figure class="card">
                     <img src="assets/img/Thumbnail_Project-01.png" alt="">
                     <figcaption>
-                        <h2>Travelgram</h2>
+                        <h3>Travelgram</h3>
                         <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
                     </figcaption>
 
@@ -83,7 +82,7 @@
                 <figure class="card">
                     <img src="assets/img/Thumbnail_Project-02.png" alt="">
                     <figcaption>
-                        <h2>Tech News</h2>
+                        <h3>Tech News</h3>
                         <p>Homepage de um portal de notícias sobre a área de tecnologia</p>
                     </figcaption>
 
@@ -92,7 +91,7 @@
                 <figure class="card">
                     <img src="assets/img/Thumbnail_Project-03.png" alt="">
                     <figcaption>
-                        <h2>Página de receita</h2>
+                        <h3>Página de receita</h3>
                         <p>Página com o passo a passo de uma receita para cupcakes</p>
                     </figcaption>
 
@@ -101,7 +100,7 @@
                 <figure class="card">
                     <img src="assets/img/Thumbnail_Project-04.png" alt="">
                     <figcaption>
-                        <h2>Zingen</h2>
+                        <h3>Zingen</h3>
                         <p>Landing Page completa e responsiva de um aplicativo de Karaokê</p>
                     </figcaption>
 
@@ -110,7 +109,7 @@
                 <figure class="card">
                     <img src="assets/img/Thumbnail_Project-05.png" alt="">
                     <figcaption>
-                        <h2>Refund</h2>
+                        <h3>Refund</h3>
                         <p>Um sistema para pedido e acompanhamento de reembolso </p>
                     </figcaption>
                 </figure>
@@ -118,7 +117,7 @@
                 <figure class="card">
                     <img src="assets/img/Thumbnail_Project-06.png" alt="">
                     <figcaption>
-                        <h2>Página de turismo</h2>
+                        <h3>Página de turismo</h3>
                         <p>Página com as principais informações para quem quer viajar para Busan</p>
                     </figcaption>
 
@@ -130,30 +129,80 @@
             <h2 class="information">Meus serviços</h2>
             <p class="question">Como posso ajudar o seu negócio?</p>
             <div class="skills">
-            <figure>
-                <img src="assets/icon/Devices.svg" alt="">
-                <figcaption>
-                    <h3>Websites e Aplicativos</h3>
-                    <p>Desenvolvimento de interfaces</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="assets/icon/HardDrives.svg" alt="">
-                <figcaption>
-                    <h3>API e banco de dados</h3>
-                    <p>Criação de serviços do sistema </p>
-                </figcaption>
-            </figure>
+                <figure>
+                    <img src="assets/icon/Devices.svg" alt="">
+                    <figcaption>
+                        <h3>Websites e Aplicativos</h3>
+                        <p>Desenvolvimento de interfaces</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/icon/HardDrives.svg" alt="">
+                    <figcaption>
+                        <h3>API e banco de dados</h3>
+                        <p>Criação de serviços do sistema </p>
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="assets/icon/Infinity.svg" alt="">
-                <figcaption>
-                    <h3>DevOps</h3>
-                    <p>Gestão e infraestrutura da aplicação</p>
-                </figcaption>
-            </figure>
-        </div>
+                <figure>
+                    <img class="infinity" src="assets/icon/Infinity.svg" alt="">
+                    <figcaption>
+                        <h3>DevOps</h3>
+                        <p>Gestão e infraestrutura da aplicação</p>
+                    </figcaption>
+                </figure>
+            </div>
         </section>
-    </main>  
+    </main>
+
+    <footer id="contact">
+        <figure>
+            <img src="assets/img/Background_Contacts.png" alt="">
+            <figcaption>
+                <h2>Contato</h2>
+                <h3 class="doubts">Gostou do meu trabalho? </h3>
+                <p>Entre em contato ou acompanhe as minhas redes sociais!</p>
+
+                <div class="icons-redes">
+
+                    <a href="https://www.linkedin.com/in/dea-santos-dev" target="_blank">
+                        <div class="icon-container">
+                            <img class="icons" src="assets/icon/LinkedinLogo.svg" alt="">
+                            <p class="redes">LinkedIn</p>
+                            <img class="arrow" src="assets/icon/ArrowUpRight.svg" alt="">
+                    </a>
+                </div>
+
+        <a href="https://www.instagram.com/dea.lua.santos/" target="_blank">
+            <div class="icon-container">
+                <img class="icons" src="assets/icon/InstagramLogo.svg" alt="">
+                <p class="redes">Instagram</p>
+                <img class="arrow" src="assets/icon/ArrowUpRight.svg" alt="">
+        </a>
+    </div>
+
+        <a href="https://github.com/Andrea-Santos20" target="_blank">
+            <div class="icon-container">
+                <img class="icons" src="assets/icon/GithubLogo.svg" alt="">
+                <p class="redes">GitHub</p>
+                <img class="arrow" src="assets/icon/ArrowUpRight.svg" alt="">
+        </a>
+    </div>
+
+        <a href="" target="_blank">
+            <div class="icon-container">
+                <img class="icons" src="assets/icon/EnvelopeSimple.svg" alt="">
+                <p class="redes">E-mail</p>
+                <img class="arrow" src="assets/icon/ArrowUpRight.svg" alt="">
+        </a>
+    </div>
+
+        </div>
+
+        </figcaption>
+
+        </figure>
+    </footer>
 </body>
+
 </html>
