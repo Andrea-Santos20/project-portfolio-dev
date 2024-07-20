@@ -1,11 +1,11 @@
- #projects {
+  #projects {
   display: flex;
   flex-direction: column;
   align-items: center;
 
   margin: 72px 163px 74px 163px;
 
-  h3 {
+  h2 {
     font: var(--subtitle);
     color: var(--red);
   }
@@ -28,15 +28,11 @@
 
 }
 
-
 .card { 
   display: grid;  
   background-color: var(--gray300); 
-  padding: 12px;
+  padding: 12px;  
   border-radius: 8px;
-
-  height: 280px;
-  width: 330px;
 
   overflow: hidden; 
  
@@ -50,13 +46,13 @@
     width: 306px;  
   }
 
-  figcaption {  
+  figcaption {     
 
-    h2, p {      
+    h3, p {      
       border-radius: 8px;
     }
        
-    h2 {
+    h3 {
       padding: 20px 12px 0 12px;
       font: var(--title-sm);
       color: var(--gray600);      
@@ -65,7 +61,7 @@
     p {
       padding: 8px 12px 21px 12px;
       font: var(--text-sm);
-      color: var(--gray500);      
+      color: var(--gray500);            
     }
   }
 }
